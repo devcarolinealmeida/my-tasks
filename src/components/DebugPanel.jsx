@@ -5,7 +5,6 @@ function DebugPanel({ tasks }) {
 
   const localStorageData = localStorage.getItem('my-tasks');
   
-  // Função para limpar localStorage (útil para demonstração)
   const clearStorage = () => {
     if (window.confirm('Clear all data? This will remove all tasks.')) {
       localStorage.clear();
@@ -13,7 +12,6 @@ function DebugPanel({ tasks }) {
     }
   };
 
-  // Função para exportar dados (feature adicional)
   const exportData = () => {
     const data = {
       tasks,
@@ -34,7 +32,7 @@ function DebugPanel({ tasks }) {
     <div className="fixed bottom-4 right-4 z-50">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-4 py-2 rounded-lg shadow-lg hover:from-indigo-600 hover:to-purple-700 transition-all duration-200 flex items-center gap-2"
+        className="bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-3 md:px-4 py-2 rounded-lg shadow-lg hover:from-indigo-600 hover:to-purple-700 transition-all duration-200 flex items-center gap-2 text-sm md:text-base"
         title="Developer Tools"
       >
         <span>🔧</span>
@@ -42,12 +40,12 @@ function DebugPanel({ tasks }) {
       </button>
       
       {isOpen && (
-        <div className="absolute bottom-12 right-0 bg-white/95 backdrop-blur-md text-gray-800 p-4 rounded-lg shadow-xl max-w-sm border border-gray-200">
+        <div className="absolute bottom-12 right-0 bg-white/95 backdrop-blur-md text-gray-800 p-4 rounded-lg shadow-xl w-72 sm:w-80 max-w-sm border border-gray-200">
           <div className="flex justify-between items-center mb-3">
-            <h3 className="font-bold text-lg">Developer Panel</h3>
+            <h3 className="font-bold text-base md:text-lg">Developer Panel</h3>
             <button 
               onClick={() => setIsOpen(false)}
-              className="text-gray-500 hover:text-gray-700"
+              className="text-gray-500 hover:text-gray-700 text-lg"
             >
               ✕
             </button>
@@ -81,7 +79,7 @@ function DebugPanel({ tasks }) {
             </div>
 
             {/* Info */}
-            <div className="text-xs text-gray-500 pt-2 border-t">
+            <div className="text-xs text-gray-500 pt-2 border-t space-y-1">
               <div>🔒 Data stored locally</div>
               <div>⚡ Built with React + Vite</div>
               <div>🎨 Styled with Tailwind CSS</div>
