@@ -3,9 +3,13 @@
 > A modern, responsive task management application built with React, featuring persistent local storage and a sleek glassmorphism design.
 
 | **React 19.1** | UI Framework | Latest features, hooks, and performance |
+
 | **Vite 7.0** | Build Tool | Lightning-fast HMR and optimized builds |
+
 | **Tailwind CSS 4.1** | Styling | Utility-first, responsive, maintainable |
+
 | **React Icons** | Icons | Lightweight, consistent iconography |
+
 | **LocalStorage API** | Data Persistence | Client-side storage, no backend required |
 
 ## 🚀 Live Demo
@@ -105,7 +109,7 @@ const handleKeyPress = (e) => {
 - **🗑️ Storage management** – Quickly clear local storage for testing
 - **💡 Development info** – Display the tech stack used in the project
 ```
-```
+
 
 
 ## 🌟 Future Enhancements
@@ -131,22 +135,12 @@ const handleKeyPress = (e) => {
 ## 👩‍💻 About the Developer
 
 **Caroline Almeida** - Front-end Developer
+>"I've been changing my life through code"
 
-I'm passionate about creating intuitive, performant web applications that solve real problems. This project showcases my ability to:
-
-- 🎯 **Architect scalable solutions** from concept to deployment
-- 🎨 **Design beautiful interfaces** with modern UX principles
-- 🔧 **Write clean, maintainable code** following best practices
-- 📱 **Build responsive applications** that work everywhere
-
----
 
 ### 📧 Let's Connect!
-
-- **LinkedIn**: [linkedin.com/in/caroline-almeida](https://www.linkedin.com/in/devcaroline/)
+- **LinkedIn**: [linkedin.com/in/devcaroline](https://www.linkedin.com/in/devcaroline/)
 - **Portfolio**: [caroline-almeida.dev](https://caroline-almeida-dev.vercel.app/)
-- **GitHub**: [github.com/caroline-almeida](https://github.com/devcarolinealmeida)
-
-> *"Code is like humor. When you have to explain it, it's bad."* - Cory House
+- **GitHub**: [github.com/devcarolinealmeida](https://github.com/devcarolinealmeida)
 
 **Ready to build something amazing together?** 🚀
